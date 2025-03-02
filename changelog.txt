@@ -1,1 +1,21 @@
+v2.0.1
 
+- Enhanced SCP-173 (Agression has increased, as has an increased chance of opening doors).
+- Enhanced State 11 of the Guard's during the intro sequence.
+- Added "Guard2" to the NPC list (it is spawnable as "spawn guard2" in the console).
+- Enhanced the way custom radio tracks are played to prevent issues when using the console.
+- Added the ability for updates from the launcher to occur (for dev builds).
+
+Bugs to fix:
+- Guard2's use the hand paper animation when backing away from SCP's.
+- Guard2's show the SCP-173 neck broken animation when containing it.
+- Guard2's randomly play a different animation when idle for some time (although it does not happen often).
+- Random FPS drops when entering the info desk room then return.
+- MTF and Guard2's enter a lockroom causing both doors to open at once when opened by the player.
+- Some map generations force the player to go into SCP-939's basement at the start (may not fix).
+- Sometimes after using "camerafog" command in the console, night vision goggles appear black needing the command to be ran again to be visible
+- MTF and Guard2's dont react to SCP-106, SCP-008-1 or SCP-1048-A (there is a chance that there are other SCP's)
+- Guard2's travel in teams when spawned anywhere on the map and even vast distances (the use the MTF script as a template therefore needing more refinment)
+There are many more bugs that need fixing but haven't been discovered yet.
+
+----------------------------------------------------------------------------------
